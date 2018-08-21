@@ -1,7 +1,8 @@
 # android-coinmarketcap-api-rxjava-example
 This application uses the new Professional API from pro.coinmarketcap.com to display the top 100 crypto coins and their data via RxJava and Retrofit for Android.
 
-* features the API call to https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?limit=100
+* features API call to https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?limit=100
+* features API call to https://pro.coinmarketcap.com/api/v1#operation/getV1CryptocurrencyInfo  
 * integrated with Retrofit example
 * integrated with RxJava for Android API calls and response processing.
 * Gson data model extracted using http://www.jsonschema2pojo.org/ 
